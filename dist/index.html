@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8">
+    <title>滚动计数器</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css'>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div id="app">
+        <button @click="subtract" :disabled="isAnimating">
+    <i class="fas fa-minus"></i>
+  </button>
+        <span :class="{before: isBefore, after: isAfter}" :data-before="countBefore" :data-after="countAfter">{{ count }}</span>
+        <button @click="add" :disabled="isAnimating">
+    <i class="fas fa-plus"></i>
+  </button>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
