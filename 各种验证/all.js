@@ -158,5 +158,31 @@ var postalCode = /[1-9]\d{5}(?!\d)/;
 // IP地址：
 var IPAddress = /((?:(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d)\\.){3}(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d))/;
 
+//具体使用方法
+/*
+<form action="">
+　　输入：<input type="text" name="mazey" id="mazey" placeholder="请输入邮箱">
+　　<input type="button" value="验证" onclick="check();">
+</form>
+
+<script>
+function check(){
+　　var reg = /^\w+((.\w+)|(-\w+))@[A-Za-z0-9]+((.|-)[A-Za-z0-9]+).[A-Za-z0-9]+$/; //正则表达式
+　　var obj = document.getElementById("mazey"); //要验证的对象
+　　if(obj.value === ""){ //输入不能为空
+　　　　alert("输入不能为空!");
+　　　　return false;
+　　}else if(!reg.test(obj.value)){ //正则验证不通过，格式不对
+　　　　alert("验证不通过!");
+　　　　return false;
+　　}else{
+　　　　alert("通过！");
+　　　　return true;
+　　}
+}
+</script> 
+*/
+
+
 //推荐一个一致性、模块化、高性能的 JavaScript 实用工具库。
 //https://www.lodashjs.com/docs/lodash.join
