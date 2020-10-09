@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zn-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./jq.min.js"></script>
+    <title>何同学开场——0</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <div class="x1"></div>
+            <div class="x2"></div>
+            <div class="x3"></div>
+            <div class="x4"></div>
+            <div class="x5"></div>
+            <div class="x6"></div>
+        </div>
+        <div class="item">
+            <div class="x1"></div>
+            <div class="x2"></div>
+            <div class="x3"></div>
+            <div class="x4"></div>
+            <div class="x5"></div>
+            <div class="x6"></div>
+        </div>
+        <div class="item">
+            <div class="x1">大</div>
+            <div class="x2">大</div>
+            <div class="x3">大</div>
+            <div class="x4">大</div>
+            <div class="x5">大</div>
+            <div class="x6">大</div>
+        </div>
+        <div class="item">
+            <div class="x1">家</div>
+            <div class="x2">家</div>
+            <div class="x3">家</div>
+            <div class="x4">家</div>
+            <div class="x5">家</div>
+            <div class="x6">家</div>
+        </div>
+        <div class="item">
+            <div class="x1">好</div>
+            <div class="x2">好</div>
+            <div class="x3">好</div>
+            <div class="x4">好</div>
+            <div class="x5">好</div>
+            <div class="x6">好</div>
+        </div>
+        <div class="item">
+            <div class="x1"></div>
+            <div class="x2">我</div>
+            <div class="x3">我</div>
+            <div class="x4">我</div>
+            <div class="x5">我</div>
+            <div class="x6">我</div>
+        </div>
+        <div class="item">
+            <div class="x1"></div>
+            <div class="x2"></div>
+            <div class="x3">叫</div>
+            <div class="x4">叫</div>
+            <div class="x5">叫</div>
+            <div class="x6">叫</div>
+        </div>
+        <div class="item">
+            <div class="x1"></div>
+            <div class="x2"></div>
+            <div class="x3"></div>
+            <div class="x4">霜</div>
+            <div class="x5">霜</div>
+            <div class="x6">霜</div>
+        </div>
+        <div class="item">
+            <div class="x1"></div>
+            <div class="x2"></div>
+            <div class="x3"></div>
+            <div class="x4"></div>
+            <div class="x5">序</div>
+            <div class="x6">序</div>
+        </div>
+        <div class="item">
+            <div class="x1"></div>
+            <div class="x2"></div>
+            <div class="x3"></div>
+            <div class="x4"></div>
+            <div class="x5"></div>
+            <div class="x6">廿</div>
+        </div>
+        <div class="item">
+            <div class="x1"></div>
+            <div class="x2"></div>
+            <div class="x3"></div>
+            <div class="x4"></div>
+            <div class="x5"></div>
+            <div class="x6"></div>
+        </div>
+        <div class="item">
+            <div class="x1"></div>
+            <div class="x2"></div>
+            <div class="x3"></div>
+            <div class="x4"></div>
+            <div class="x5"></div>
+            <div class="x6"></div>
+        </div>
+    </div>
+    <script>
+        $('.item').each(function() {
+            let index = $(this).index();
+            let start = 3.5;
+            $(this).find('.x6').css('animation-delay', start + index / 8 + 's');
+        })
+    </script>
+</body>
+
+</html>
