@@ -25,4 +25,11 @@
 | [缓存旋转](https://github.com/YuelinWang/wyl_wheel/tree/master/缓存旋转) | [缓存旋转](https://yuelinwang.github.io/wyl_wheel/%E7%BC%93%E5%AD%98%E6%97%8B%E8%BD%AC/index.html) |
 | [进度条](https://github.com/YuelinWang/wyl_wheel/tree/master/进度条) | [进度条](https://yuelinwang.github.io/wyl_wheel/%E8%BF%9B%E5%BA%A6%E6%9D%A1/index.html) |
 | [b站秋首页](https://github.com/YuelinWang/wyl_wheel/tree/master/b站秋首页) | [b站首页秋](https://yuelinwang.github.io/wyl_wheel/b%E7%AB%99%E7%A7%8B%E9%A6%96%E9%A1%B5/index.html) |
+| [大白~](https://github.com/YuelinWang/wyl_wheel/tree/master/大白~) | [大白~](https://yuelinwang.github.io/wyl_wheel/%E5%A4%A7%E7%99%BD/) |
+| [mine](https://github.com/YuelinWang/wyl_wheel/tree/master/mine) | [mine](https://yuelinwang.github.io/wyl_wheel/mine/)         |
+| [snake](https://github.com/YuelinWang/wyl_wheel/tree/master/snake) | [snake](https://yuelinwang.github.io/wyl_wheel/snake/)       |
+| [拼图](https://github.com/YuelinWang/wyl_wheel/tree/master/拼图) | [拼图](https://yuelinwang.github.io/wyl_wheel/%E6%8B%BC%E5%9B%BE/) |
+| [2048](https://github.com/YuelinWang/wyl_wheel/tree/master/2048) | [2048](https://yuelinwang.github.io/wyl_wheel/2048/)         |
+| [别踩白块](https://github.com/YuelinWang/wyl_wheel/tree/master/别踩白块) | [别踩白块](https://yuelinwang.github.io/wyl_wheel/%E5%88%AB%E8%B8%A9%E7%99%BD%E5%9D%97/) |
+
 
