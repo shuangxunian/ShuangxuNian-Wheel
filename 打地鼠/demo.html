@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>打地鼠</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background:darkturquoise;
+        }
+        h3{
+            text-indent: 200px;
+            font-size:50px;
+            color:palegoldenrod;
+            letter-spacing: 10px;
+            margin-top:100px;
+        }
+        .main{
+            width:600px;
+            height:600px;
+            position:absolute;
+            left:50%;
+            top:50%;
+            transform:translate(-50%,-50%);
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr);
+        }
+        .item{
+            position:relative;
+        }
+        .item>img{
+            width:97%;
+            position:absolute;
+            left:50%;
+            top:50%;
+            transform:translate(-50%,-50%);
+        }
+        .item .mouse{
+            width:65%;
+        }
+        .main .mouse,.main .boom{
+            display:none;
+        }
+        .main:hover{
+            cursor: url("img/hammer.ico"),auto
+        }
+    </style>
+</head>
+<body>
+    <h3>积分：<span class="score">0</span></h3>
+    <div class="main">
+        <div class="item">
+            <img class="hole" src="img/hole.png" alt="">
+            <img class="mouse" src="img/mouse.png" alt="">
+            <img class="boom" src="img/boom.png" alt="">
+        </div>
+        <div class="item">
+            <img class="hole" src="img/hole.png" alt="">
+            <img class="mouse" src="img/mouse.png" alt="">
+            <img class="boom" src="img/boom.png" alt="">
+        </div>
+        <div class="item">
+            <img class="hole" src="img/hole.png" alt="">
+            <img class="mouse" src="img/mouse.png" alt="">
+            <img class="boom" src="img/boom.png" alt="">
+        </div>
+        <div class="item">
+            <img class="hole" src="img/hole.png" alt="">
+            <img class="mouse" src="img/mouse.png" alt="">
+            <img class="boom" src="img/boom.png" alt="">
+        </div>
+        <div class="item">
+            <img class="hole" src="img/hole.png" alt="">
+            <img class="mouse" src="img/mouse.png" alt="">
+            <img class="boom" src="img/boom.png" alt="">
+        </div>
+        <div class="item">
+            <img class="hole" src="img/hole.png" alt="">
+            <img class="mouse" src="img/mouse.png" alt="">
+            <img class="boom" src="img/boom.png" alt="">
+        </div>
+        <div class="item">
+            <img class="hole" src="img/hole.png" alt="">
+            <img class="mouse" src="img/mouse.png" alt="">
+            <img class="boom" src="img/boom.png" alt="">
+        </div>
+        <div class="item">
+            <img class="hole" src="img/hole.png" alt="">
+            <img class="mouse" src="img/mouse.png" alt="">
+            <img class="boom" src="img/boom.png" alt="">
+        </div>
+        <div class="item">
+            <img class="hole" src="img/hole.png" alt="">
+            <img class="mouse" src="img/mouse.png" alt="">
+            <img class="boom" src="img/boom.png" alt="">
+        </div>
+        
+    </div>
+</body>
+</html>
+<script>
+    var mouseLists=document.querySelectorAll(".mouse");
+    var scoreBox=document.querySelector(".score");
+    var score=0;
+    // 让老鼠随机出现
+    setInterval(function(){
+        var i=Math.floor(Math.random()*9);
+        console.log(i);
+        mouseLists[i].style.display="block";
+    },1000);
+    // 给每个地鼠绑定点击事件
+    for(var i=0;i<mouseLists.length;i++){
+        mouseLists[i].onclick=function(){
+            this.style.display="none";
+            console.log(this.parentElement.lastElementChild.style)
+            this.parentElement.lastElementChild.style.display="block";
+            var _that=this;
+            var timer=setTimeout(function(){
+                clearTimeout(timer);
+                _that.parentElement.lastElementChild.style.display="none";
+            },200);
+            score+=100;
+            scoreBox.innerHTML=score;
+        }
+    }
+</script>

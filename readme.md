@@ -24,4 +24,5 @@
 | [纯css视差滚动](https://github.com/YuelinWang/wyl_wheel/tree/master/纯css视差滚动) | [纯css视差滚动](https://yuelinwang.github.io/wyl_wheel/%E7%BA%AFcss%E8%A7%86%E5%B7%AE%E6%BB%9A%E5%8A%A8/index.html) |
 | [缓存旋转](https://github.com/YuelinWang/wyl_wheel/tree/master/缓存旋转) | [缓存旋转](https://yuelinwang.github.io/wyl_wheel/%E7%BC%93%E5%AD%98%E6%97%8B%E8%BD%AC/index.html) |
 | [进度条](https://github.com/YuelinWang/wyl_wheel/tree/master/进度条) | [进度条](https://yuelinwang.github.io/wyl_wheel/%E8%BF%9B%E5%BA%A6%E6%9D%A1/index.html) |
+| [b站秋首页](https://github.com/YuelinWang/wyl_wheel/tree/master/b站秋首页) | [b站首页秋](https://yuelinwang.github.io/wyl_wheel/b%E7%AB%99%E7%A7%8B%E9%A6%96%E9%A1%B5/index.html) |
 
