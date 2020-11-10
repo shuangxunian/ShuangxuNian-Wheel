@@ -31,5 +31,5 @@
 | [拼图](https://github.com/YuelinWang/wyl_wheel/tree/master/拼图) | [拼图](https://yuelinwang.github.io/wyl_wheel/%E6%8B%BC%E5%9B%BE/) |
 | [2048](https://github.com/YuelinWang/wyl_wheel/tree/master/2048) | [2048](https://yuelinwang.github.io/wyl_wheel/2048/)         |
 | [别踩白块](https://github.com/YuelinWang/wyl_wheel/tree/master/别踩白块) | [别踩白块](https://yuelinwang.github.io/wyl_wheel/%E5%88%AB%E8%B8%A9%E7%99%BD%E5%9D%97/) |
-
+| [基础页面架构](https://github.com/YuelinWang/wyl_wheel/tree/master/基础页面架构) | [基础页面架构](https://yuelinwang.github.io/wyl_wheel/%E5%9F%BA%E7%A1%80%E9%A1%B5%E9%9D%A2%E6%9E%B6%E6%9E%84/) |
 
