@@ -9,7 +9,7 @@
 
 | code                                                         | demo                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [3d照片墙](https://github.com/YuelinWang/wyl_wheel/tree/master/3d照片墙) | [3d照片墙](https://yuelinwang.github.io/wyl_wheel/3d%E7%85%A7%E7%89%87%E5%A2%99/index.html) |
+| [3d照片墙](https://github.com/shuangxunian/ShuangxuNian-Wheel/tree/master/3d%E7%85%A7%E7%89%87%E5%A2%99) | [3d照片墙](https://shuangxunian.github.io/ShuangxuNian-Wheel/3d%E7%85%A7%E7%89%87%E5%A2%99/index.html) |
 | [4种导航栏高亮](https://github.com/YuelinWang/wyl_wheel/tree/master/4种导航栏高亮) | [4种导航栏高亮](https://yuelinwang.github.io/wyl_wheel/4%E7%A7%8D%E5%AF%BC%E8%88%AA%E6%A0%8F%E9%AB%98%E4%BA%AE/index.html) |
 | [css翻转50音](https://github.com/YuelinWang/wyl_wheel/tree/master/css翻转50音) | [css翻转50音](https://yuelinwang.github.io/wyl_wheel/css%E7%BF%BB%E8%BD%AC50%E9%9F%B3/index.html) |
 | [grid布局](https://github.com/YuelinWang/wyl_wheel/tree/master/grid布局) | [grid布局](https://yuelinwang.github.io/wyl_wheel/grid%E5%B8%83%E5%B1%80/index.html) |
